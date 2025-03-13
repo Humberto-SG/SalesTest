@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace SalesTest.src.Entities
+namespace SalesTest.Entities
 {
     public class SaleEventLog
     {

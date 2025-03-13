@@ -1,6 +1,6 @@
-﻿using SalesTest.src.Entities;
+﻿using SalesTest.Entities;
 
-namespace SalesTest.src.Repositories
+namespace SalesTest.Repositories
 {
     public class SaleRepository
     {

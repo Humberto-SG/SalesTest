@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SalesTest.src.Entities
+namespace SalesTest.Entities
 {
     public class Sale
     {

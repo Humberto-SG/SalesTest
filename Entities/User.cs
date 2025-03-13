@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace SalesTest.src.Entities
+namespace SalesTest.Entities
 {
     public class User
     {

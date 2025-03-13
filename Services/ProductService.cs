@@ -1,5 +1,5 @@
-﻿using DeveloperStore.Domain.Entities;
-using MongoDB.Driver;
+﻿using MongoDB.Driver;
+using SalesTest.Entities;
 
 
 public class ProductService

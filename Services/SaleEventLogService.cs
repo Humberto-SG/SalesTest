@@ -1,5 +1,5 @@
 ﻿using MongoDB.Driver;
-using SalesTest.src.Entities;
+using SalesTest.Entities;
 
 public class SaleEventLogService
 {

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SalesTest.src.Entities;
+using SalesTest.Entities;
 
 public class CartService
 {

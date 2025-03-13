@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SalesTest.src.Entities;
+using SalesTest.Entities;
 
-
-namespace SalesTest.src.Services
+namespace SalesTest.Services
 {
     public class SaleService : ISaleService
     {
@@ -77,7 +76,7 @@ namespace SalesTest.src.Services
 
             Sale result = _context.Sales.Update(existingSale).Entity;
             await _context.SaveChangesAsync();
-            
+
             Console.WriteLine($"Evento: SaleModified - {existingSale.SaleNumber}");
             return existingSale;
         }

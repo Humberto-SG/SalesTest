@@ -2,8 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using SalesTest.src.Services;
 using Microsoft.OpenApi.Models;
+using SalesTest.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

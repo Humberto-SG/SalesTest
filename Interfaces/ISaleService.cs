@@ -1,4 +1,4 @@
-﻿using SalesTest.src.Entities;
+﻿using SalesTest.Entities;
 
 public interface ISaleService
 {

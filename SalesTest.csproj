@@ -8,9 +8,26 @@
 
   <ItemGroup>
     <Compile Remove="NovaPasta\**" />
+    <Compile Remove="src\**" />
     <Content Remove="NovaPasta\**" />
+    <Content Remove="src\**" />
     <EmbeddedResource Remove="NovaPasta\**" />
+    <EmbeddedResource Remove="src\**" />
     <None Remove="NovaPasta\**" />
+    <None Remove="src\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="WeatherForecast.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="readme.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\DeveloperStore.csproj.EntityFrameworkCore.targets" />
   </ItemGroup>
 
   <ItemGroup>

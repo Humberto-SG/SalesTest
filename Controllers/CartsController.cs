@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SalesTest.src.Entities;
+using SalesTest.Entities;
 
 [ApiController]
 [Route("api/carts")]

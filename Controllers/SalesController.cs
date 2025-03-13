@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SalesTest.src.Entities;
-using SalesTest.src.Services;
+using SalesTest.Entities;
+using SalesTest.Services;
 
-namespace SalesTest.src.Controllers
+namespace SalesTest.Controllers
 {
     [ApiController]
     [Route("api/sales")]

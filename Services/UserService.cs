@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography;
 using System.Text;
-using SalesTest.src.Entities;
+using SalesTest.Entities;
 
 public class UserService
 {
